@@ -121,6 +121,17 @@ input[type='text'] {
   padding-bottom: 10px;
 }
 
+.msg {
+  text-align: center;
+}
+
+.quotes {
+  text-align: center;
+  color: skyblue;
+  font-style: italic;
+  padding: 4em 0;
+}
+
 @media (max-width: 800px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);
